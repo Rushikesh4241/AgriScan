@@ -1,0 +1,423 @@
+{
+  "Apple___Apple_scab": {
+    "disease": "Apple Scab",
+    "cause": "Fungal infection (Venturia inaequalis)",
+    "treatment": [
+      "Apply fungicides such as Captan or Mancozeb",
+      "Remove and destroy infected leaves"
+    ],
+    "prevention": [
+      "Use resistant apple varieties",
+      "Avoid overhead irrigation"
+    ]
+  },
+
+  "Apple___Black_rot": {
+    "disease": "Apple Black Rot",
+    "cause": "Fungal infection (Botryosphaeria obtusa)",
+    "treatment": [
+      "Prune infected branches",
+      "Apply copper-based fungicides"
+    ],
+    "prevention": [
+      "Maintain orchard sanitation",
+      "Remove dead wood regularly"
+    ]
+  },
+
+  "Apple___Cedar_apple_rust": {
+    "disease": "Cedar Apple Rust",
+    "cause": "Fungal infection (Gymnosporangium juniperi-virginianae)",
+    "treatment": [
+      "Apply myclobutanil fungicide",
+      "Remove nearby cedar trees if possible"
+    ],
+    "prevention": [
+      "Plant resistant varieties",
+      "Apply fungicides early in season"
+    ]
+  },
+
+  "Apple___healthy": {
+    "disease": "Healthy Apple Leaf",
+    "cause": "No disease detected",
+    "treatment": ["No treatment required"],
+    "prevention": ["Maintain proper nutrition and irrigation"]
+  },
+
+  "Blueberry___healthy": {
+    "disease": "Healthy Blueberry Leaf",
+    "cause": "No disease detected",
+    "treatment": ["No treatment required"],
+    "prevention": ["Ensure good soil drainage"]
+  },
+
+  "Cherry_(including_sour)___Powdery_mildew": {
+    "disease": "Cherry Powdery Mildew",
+    "cause": "Fungal infection",
+    "treatment": [
+      "Apply sulfur-based fungicides",
+      "Remove infected leaves"
+    ],
+    "prevention": [
+      "Ensure proper air circulation",
+      "Avoid excess nitrogen fertilizer"
+    ]
+  },
+
+  "Cherry_(including_sour)___healthy": {
+    "disease": "Healthy Cherry Leaf",
+    "cause": "No disease detected",
+    "treatment": ["No treatment required"],
+    "prevention": ["Proper pruning and irrigation"]
+  },
+
+  "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+    "disease": "Corn Gray Leaf Spot",
+    "cause": "Fungal infection",
+    "treatment": [
+      "Apply fungicides such as Azoxystrobin",
+      "Remove infected crop residues"
+    ],
+    "prevention": [
+      "Crop rotation",
+      "Use resistant hybrids"
+    ]
+  },
+
+  "Corn_(maize)___Common_rust": {
+    "disease": "Corn Common Rust",
+    "cause": "Fungal infection",
+    "treatment": [
+      "Apply fungicides if severe",
+      "Remove infected plants"
+    ],
+    "prevention": [
+      "Grow resistant varieties",
+      "Monitor crops regularly"
+    ]
+  },
+
+  "Corn_(maize)___Northern_Leaf_Blight": {
+    "disease": "Corn Northern Leaf Blight",
+    "cause": "Fungal infection",
+    "treatment": [
+      "Use approved fungicides",
+      "Destroy infected crop debris"
+    ],
+    "prevention": [
+      "Crop rotation",
+      "Use resistant hybrids"
+    ]
+  },
+
+  "Corn_(maize)___healthy": {
+    "disease": "Healthy Corn Leaf",
+    "cause": "No disease detected",
+    "treatment": ["No treatment required"],
+    "prevention": ["Balanced fertilization"]
+  },
+
+  "Grape___Black_rot": {
+    "disease": "Grape Black Rot",
+    "cause": "Fungal infection",
+    "treatment": [
+      "Apply fungicides like Mancozeb",
+      "Remove infected berries"
+    ],
+    "prevention": [
+      "Proper pruning",
+      "Avoid excess moisture"
+    ]
+  },
+
+  "Grape___Esca_(Black_Measles)": {
+    "disease": "Grape Esca",
+    "cause": "Fungal infection",
+    "treatment": [
+      "Remove infected vines",
+      "Avoid pruning during wet conditions"
+    ],
+    "prevention": [
+      "Use healthy planting material",
+      "Disinfect pruning tools"
+    ]
+  },
+
+  "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+    "disease": "Grape Leaf Blight",
+    "cause": "Fungal infection",
+    "treatment": [
+      "Apply copper fungicides",
+      "Remove infected leaves"
+    ],
+    "prevention": [
+      "Improve air circulation",
+      "Proper canopy management"
+    ]
+  },
+
+  "Grape___healthy": {
+    "disease": "Healthy Grape Leaf",
+    "cause": "No disease detected",
+    "treatment": ["No treatment required"],
+    "prevention": ["Regular vineyard monitoring"]
+  },
+
+  "Orange___Haunglongbing_(Citrus_greening)": {
+    "disease": "Citrus Greening",
+    "cause": "Bacterial infection",
+    "treatment": [
+      "Remove infected trees",
+      "Control psyllid insects"
+    ],
+    "prevention": [
+      "Use disease-free plants",
+      "Regular pest control"
+    ]
+  },
+
+  "Peach___Bacterial_spot": {
+    "disease": "Peach Bacterial Spot",
+    "cause": "Bacterial infection",
+    "treatment": [
+      "Apply copper sprays",
+      "Remove infected leaves"
+    ],
+    "prevention": [
+      "Avoid overhead irrigation",
+      "Use resistant varieties"
+    ]
+  },
+
+  "Peach___healthy": {
+    "disease": "Healthy Peach Leaf",
+    "cause": "No disease detected",
+    "treatment": ["No treatment required"],
+    "prevention": ["Balanced irrigation"]
+  },
+
+  "Pepper,_bell___Bacterial_spot": {
+    "disease": "Pepper Bacterial Spot",
+    "cause": "Bacterial infection",
+    "treatment": [
+      "Use copper fungicides",
+      "Remove infected plants"
+    ],
+    "prevention": [
+      "Use certified seeds",
+      "Avoid leaf wetness"
+    ]
+  },
+
+  "Pepper,_bell___healthy": {
+    "disease": "Healthy Pepper Leaf",
+    "cause": "No disease detected",
+    "treatment": ["No treatment required"],
+    "prevention": ["Proper fertilization"]
+  },
+
+  "Potato___Early_blight": {
+    "disease": "Potato Early Blight",
+    "cause": "Fungal infection",
+    "treatment": [
+      "Apply chlorothalonil fungicide",
+      "Remove infected leaves"
+    ],
+    "prevention": [
+      "Crop rotation",
+      "Proper spacing"
+    ]
+  },
+
+  "Potato___Late_blight": {
+    "disease": "Potato Late Blight",
+    "cause": "Fungal infection",
+    "treatment": [
+      "Apply copper fungicides",
+      "Destroy infected plants"
+    ],
+    "prevention": [
+      "Use resistant varieties",
+      "Avoid excessive moisture"
+    ]
+  },
+
+  "Potato___healthy": {
+    "disease": "Healthy Potato Leaf",
+    "cause": "No disease detected",
+    "treatment": ["No treatment required"],
+    "prevention": ["Healthy seed selection"]
+  },
+
+  "Raspberry___healthy": {
+    "disease": "Healthy Raspberry Leaf",
+    "cause": "No disease detected",
+    "treatment": ["No treatment required"],
+    "prevention": ["Regular field inspection"]
+  },
+
+  "Soybean___healthy": {
+    "disease": "Healthy Soybean Leaf",
+    "cause": "No disease detected",
+    "treatment": ["No treatment required"],
+    "prevention": ["Proper nutrient management"]
+  },
+
+  "Squash___Powdery_mildew": {
+    "disease": "Squash Powdery Mildew",
+    "cause": "Fungal infection",
+    "treatment": [
+      "Apply sulfur fungicide",
+      "Remove infected leaves"
+    ],
+    "prevention": [
+      "Adequate spacing",
+      "Good airflow"
+    ]
+  },
+
+  "Strawberry___Leaf_scorch": {
+    "disease": "Strawberry Leaf Scorch",
+    "cause": "Fungal infection",
+    "treatment": [
+      "Apply fungicides",
+      "Remove infected leaves"
+    ],
+    "prevention": [
+      "Avoid overhead watering",
+      "Maintain field hygiene"
+    ]
+  },
+
+  "Strawberry___healthy": {
+    "disease": "Healthy Strawberry Leaf",
+    "cause": "No disease detected",
+    "treatment": ["No treatment required"],
+    "prevention": ["Proper mulching"]
+  },
+
+  "Tomato___Bacterial_spot": {
+    "disease": "Tomato Bacterial Spot",
+    "cause": "Bacterial infection",
+    "treatment": [
+      "Apply copper sprays",
+      "Remove infected plants"
+    ],
+    "prevention": [
+      "Use disease-free seeds",
+      "Avoid wet foliage"
+    ]
+  },
+
+  "Tomato___Early_blight": {
+    "disease": "Tomato Early Blight",
+    "cause": "Fungal infection",
+    "treatment": [
+      "Apply fungicides like Mancozeb",
+      "Remove infected leaves"
+    ],
+    "prevention": [
+      "Crop rotation",
+      "Proper spacing"
+    ]
+  },
+
+  "Tomato___Late_blight": {
+    "disease": "Tomato Late Blight",
+    "cause": "Fungal infection",
+    "treatment": [
+      "Apply copper fungicide",
+      "Destroy infected plants"
+    ],
+    "prevention": [
+      "Avoid overhead irrigation",
+      "Plant resistant varieties"
+    ]
+  },
+
+  "Tomato___Leaf_Mold": {
+    "disease": "Tomato Leaf Mold",
+    "cause": "Fungal infection",
+    "treatment": [
+      "Apply fungicides",
+      "Improve ventilation"
+    ],
+    "prevention": [
+      "Reduce humidity",
+      "Proper greenhouse management"
+    ]
+  },
+
+  "Tomato___Septoria_leaf_spot": {
+    "disease": "Tomato Septoria Leaf Spot",
+    "cause": "Fungal infection",
+    "treatment": [
+      "Apply chlorothalonil",
+      "Remove infected leaves"
+    ],
+    "prevention": [
+      "Crop rotation",
+      "Avoid wet leaves"
+    ]
+  },
+
+  "Tomato___Spider_mites Two-spotted_spider_mite": {
+    "disease": "Tomato Spider Mites",
+    "cause": "Mite infestation",
+    "treatment": [
+      "Apply insecticidal soap",
+      "Use neem oil"
+    ],
+    "prevention": [
+      "Regular monitoring",
+      "Avoid dusty conditions"
+    ]
+  },
+
+  "Tomato___Target_Spot": {
+    "disease": "Tomato Target Spot",
+    "cause": "Fungal infection",
+    "treatment": [
+      "Apply fungicides",
+      "Remove infected leaves"
+    ],
+    "prevention": [
+      "Crop rotation",
+      "Good field sanitation"
+    ]
+  },
+
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+    "disease": "Tomato Yellow Leaf Curl Virus",
+    "cause": "Viral infection",
+    "treatment": [
+      "Remove infected plants",
+      "Control whiteflies"
+    ],
+    "prevention": [
+      "Use virus-resistant varieties",
+      "Install insect nets"
+    ]
+  },
+
+  "Tomato___Tomato_mosaic_virus": {
+    "disease": "Tomato Mosaic Virus",
+    "cause": "Viral infection",
+    "treatment": [
+      "Remove infected plants",
+      "Disinfect tools"
+    ],
+    "prevention": [
+      "Use resistant seeds",
+      "Avoid tobacco contamination"
+    ]
+  },
+
+  "Tomato___healthy": {
+    "disease": "Healthy Tomato Leaf",
+    "cause": "No disease detected",
+    "treatment": ["No treatment required"],
+    "prevention": ["Balanced nutrition and irrigation"]
+  }
+}

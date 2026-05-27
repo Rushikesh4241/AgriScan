@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main application theme -->
+    <style name="Theme.AgriScan" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primaryLight</item>
+        <item name="colorOnPrimary">@color/textLight</item>
+
+        <!-- Secondary / accent -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorOnSecondary">@color/textLight</item>
+
+        <!-- Background -->
+        <item name="android:windowBackground">@color/background</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rootLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6F0FF"
+    android:padding="16dp"
+    android:layout_margin="5dp"
+    android:fontFamily="sans-serif-medium"
+    android:gravity="center">
+
+
+
+    <!-- Location -->
+    <TextView
+        android:id="@+id/txtLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/imgWeatherIcon"
+        android:layout_width="218dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/ic_sunny" />
+
+    <!-- Temperature -->
+    <TextView
+        android:id="@+id/txtTemp"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="--°C"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--:--"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"/>
+
+    <!-- Weather Animation -->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animWeather"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/txtTemp"
+        android:layout_centerHorizontal="true"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+    <!-- Condition -->
+    <TextView
+        android:id="@+id/txtCondition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Condition"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/animWeather"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Hourly -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvHourly"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/txtCondition"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Daily -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvDaily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rvHourly"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

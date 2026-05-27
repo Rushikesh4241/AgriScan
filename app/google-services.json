@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "687930585942",
+    "project_id": "agriscan-d6f2e",
+    "storage_bucket": "agriscan-d6f2e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687930585942:android:fca238a9a40b6f72345cf7",
+        "android_client_info": {
+          "package_name": "com.example.agriscan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687930585942-dsfegn34gm2f8kkj69rg5mood5ss0b0v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.agriscan",
+            "certificate_hash": "1a1ac2ae8044f7121f172ea93a01508612f09899"
+          }
+        },
+        {
+          "client_id": "687930585942-a27nptl8d3imopn2f8p3n7rp9h2nmpnl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGfwflqSiXThTejU-BtpUu2e8xykKbbgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687930585942-a27nptl8d3imopn2f8p3n7rp9h2nmpnl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

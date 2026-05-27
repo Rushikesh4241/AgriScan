@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/farmer_bg">
+
+    <!-- CENTER CARD -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/mainCard"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="#CCFFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <!-- APP TITLE -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AgriScan 🌱"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Smart Farming Starts Here"
+                android:textSize="14sp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"/>
+
+            <!-- PHONE INPUT -->
+            <EditText
+                android:id="@+id/etPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone (+91XXXXXXXXXX)"
+                android:inputType="phone"/>
+
+            <!-- OTP INPUT -->
+            <EditText
+                android:id="@+id/etOtp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter OTP"
+                android:inputType="number"
+                android:visibility="gone"
+                android:layout_marginTop="10dp"/>
+
+            <!-- SEND OTP -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSendOtp"
+                style="@style/AgriButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Send OTP"
+                android:layout_marginTop="16dp"/>
+
+            <!-- VERIFY OTP -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnVerifyOtp"
+                style="@style/AgriButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Verify OTP"
+                android:visibility="gone"
+                android:layout_marginTop="10dp"/>
+
+            <!-- DIVIDER -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="────────  OR  ────────"
+                android:textAlignment="center"
+                android:textColor="@color/primary"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="12dp"/>
+
+            <!-- GOOGLE LOGIN -->
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/btnGoogle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
